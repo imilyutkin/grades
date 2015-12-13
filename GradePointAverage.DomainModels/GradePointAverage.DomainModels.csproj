@@ -56,6 +56,12 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GradePointAverage.BaseRepository\GradePointAverage.BaseRepository.csproj">
+      <Project>{409C9906-EFA4-4968-A5A2-C64B5E54216E}</Project>
+      <Name>GradePointAverage.BaseRepository</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

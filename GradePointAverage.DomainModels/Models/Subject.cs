@@ -1,6 +1,22 @@
-﻿namespace GradePointAverage.DomainModels.Models
+﻿using System;
+using System.ComponentModel.DataAnnotations;
+using GradePointAverage.BaseRepository.Entity.Impl;
+
+namespace GradePointAverage.DomainModels.Models
 {
-    class Subject
+    public class Subject : BaseEntity
     {
+        [Required]
+        public String Name
+        {
+            get;
+            set;
+        }
+
+        public bool IsRequired
+        {
+            get;
+            set;
+        }
     }
 }

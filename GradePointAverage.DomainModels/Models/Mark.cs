@@ -1,6 +1,22 @@
-﻿namespace GradePointAverage.DomainModels.Models
+﻿using System.ComponentModel.DataAnnotations;
+using GradePointAverage.BaseRepository.Entity.Impl;
+
+namespace GradePointAverage.DomainModels.Models
 {
-    class Mark
+    public class Mark : BaseEntity
     {
+        [Required]
+        public int Value
+        {
+            get;
+            set;
+        }
+
+        [Required]
+        public Subject Subject
+        {
+            get;
+            set;
+        }
     }
 }

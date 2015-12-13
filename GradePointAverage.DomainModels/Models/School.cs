@@ -1,6 +1,14 @@
-﻿namespace GradePointAverage.DomainModels.Models
+﻿using System.Collections.Generic;
+using GradePointAverage.BaseRepository.Entity.Impl;
+
+namespace GradePointAverage.DomainModels.Models
 {
-    class School
+    public class School : BaseEntity
     {
+        public List<Pupil> Pupils
+        {
+            get;
+            set;
+        } 
     }
 }
