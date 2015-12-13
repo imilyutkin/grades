@@ -1,7 +1,25 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradePointAverage.DomainModels", "GradePointAverage.DomainModels\GradePointAverage.DomainModels.csproj", "{88EC9C1B-6DC2-4699-8B99-3B9AC0F976FC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GradePointAverage.BaseRepository", "GradePointAverage.BaseRepository\GradePointAverage.BaseRepository.csproj", "{409C9906-EFA4-4968-A5A2-C64B5E54216E}"
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{88EC9C1B-6DC2-4699-8B99-3B9AC0F976FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88EC9C1B-6DC2-4699-8B99-3B9AC0F976FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88EC9C1B-6DC2-4699-8B99-3B9AC0F976FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88EC9C1B-6DC2-4699-8B99-3B9AC0F976FC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{409C9906-EFA4-4968-A5A2-C64B5E54216E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{409C9906-EFA4-4968-A5A2-C64B5E54216E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{409C9906-EFA4-4968-A5A2-C64B5E54216E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{409C9906-EFA4-4968-A5A2-C64B5E54216E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
